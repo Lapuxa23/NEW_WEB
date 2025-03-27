@@ -25,3 +25,4 @@ urlpatterns = [
     path('api/v1/users/confirm/', UserConfirmView.as_view(), name='user_confirm'),
     path('api/', include('movies.urls')),
 ]
+
